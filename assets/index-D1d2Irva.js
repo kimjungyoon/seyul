@@ -12,17 +12,22 @@
     </main>
     {{> footer}}
 </body>
-</html> `,Lt=`<header>
-    <nav>
-        <ul>
-            <li><a href="/">Seyul Home</a></li>
-            <li><a href="/about">About</a></li>
-        </ul>
+</html> `,Lt=`<header class="header">
+  <div class="header__container">
+    <div class="header__logo">
+      <a href="/">Logo</a>
+    </div>
+    <nav class="header__nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
     </nav>
-</header> `,Et=`<footer>
-    <div class="footer-content">
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
-        <nav>
+  </div>
+</header> `,Et=`<footer class="footer">
+    <div class="footer__container">
+        <p class="footer__copyright">&copy; 2024 Your Website. All rights reserved.</p>
+        <nav class="footer__nav">
             <ul>
                 <li><a href="/privacy">Privacy Policy</a></li>
                 <li><a href="/terms">Terms of Service</a></li>
