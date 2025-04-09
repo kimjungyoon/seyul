@@ -15,7 +15,7 @@
 </html> `,Lt=`<header class="header">
   <div class="header__container">
     <div class="header__logo">
-      <a href="/">Logo</a>
+      <a href="/">Logo수정해씀</a>
     </div>
     <nav class="header__nav">
       <ul>
