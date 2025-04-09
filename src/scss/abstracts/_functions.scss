@@ -1,0 +1,8 @@
+// SCSS 함수 정의
+@function rem($pixels) {
+  @return ($pixels / 16) + rem;
+}
+
+@function em($pixels) {
+  @return ($pixels / 16) + em;
+} 

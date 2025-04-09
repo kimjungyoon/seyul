@@ -1,0 +1,26 @@
+header {
+  background-color: $background-color;
+  padding: $spacing-unit 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  nav {
+    max-width: $container-width;
+    margin: 0 auto;
+
+    ul {
+      display: flex;
+      gap: $spacing-unit;
+      list-style: none;
+      padding: 0;
+
+      li a {
+        color: $primary-color;
+        text-decoration: none;
+        
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+} 

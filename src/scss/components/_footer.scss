@@ -1,0 +1,30 @@
+footer {
+  background-color: $primary-color;
+  color: $background-color;
+  padding: $spacing-unit * 2 0;
+  margin-top: auto;
+
+  .footer-content {
+    max-width: $container-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav ul {
+      display: flex;
+      gap: $spacing-unit;
+      list-style: none;
+      padding: 0;
+
+      li a {
+        color: $background-color;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+} 
